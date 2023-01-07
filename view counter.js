@@ -1,3 +1,4 @@
+//credit-Sirmyself//
 function refreshList() {
 	var btn = document.querySelectorAll(`.chat-view-container.chat-messages-container:not(.hide) .header-button.btn-user-list, .chat-view-container.chat-users-container:not(.hide) .header-button.btn-user-list.btn-return-to-chat`)[0]
 	
