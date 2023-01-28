@@ -1,4 +1,6 @@
 //credit-Sirmyself//
+const secondsToRefresh = 10; //refreshes every 10 seconds, change value before running the script to refresh more or less often
+
 function refreshList() {
 	var btn = document.querySelectorAll(`.chat-view-container.chat-messages-container:not(.hide) .header-button.btn-user-list, .chat-view-container.chat-users-container:not(.hide) .header-button.btn-user-list.btn-return-to-chat`)[0]
 	
